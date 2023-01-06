@@ -1,0 +1,664 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-image: url(images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.section-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 35%;
+}
+.section-main img {
+  width: 37%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-main h1 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 20% 0% 5% 0%;
+}
+.section-main p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+  margin-bottom: 10%;
+}
+.section-main input, .section-main .ios {
+  width: 95%;
+  height: 4rem;
+  border-radius: 30px;
+  border: none;
+  border-bottom: 3px solid hsl(171deg, 66%, 38%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  word-spacing: 3px;
+  background-color: hsl(171deg, 66%, 44%);
+  box-shadow: 0px 3px 3px 3px hsla(171deg, 66%, 44%, 0.247);
+}
+.section-main .mac {
+  background-color: hsl(233deg, 100%, 69%);
+  box-shadow: 0px 3px 3px 3px hsla(233deg, 100%, 69%, 0.247);
+  border-bottom: 3px solid hsl(233deg, 57%, 58%);
+  margin-top: 20px;
+}
+
+.section-keep-track {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25%;
+  margin-bottom: 30%;
+}
+.section-keep-track h2 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 20% 0% 5% 0%;
+}
+.section-keep-track p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+  margin-bottom: 10%;
+}
+.section-keep-track .section-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-keep-track .section-elements img {
+  width: 85%;
+  margin-bottom: 15%;
+}
+.section-keep-track .section-elements .informations .info h3 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 20% 0% 5% 0%;
+}
+.section-keep-track .section-elements .informations .info p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+  margin-bottom: 10%;
+}
+
+.section-access-clipboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.section-access-clipboard h2 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 20% 0% 5% 0%;
+}
+.section-access-clipboard p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+  margin-bottom: 10%;
+}
+.section-access-clipboard img {
+  width: 90%;
+  margin-bottom: 15%;
+}
+
+.section-supercharge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.section-supercharge h2 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 20% 0% 5% 0%;
+}
+.section-supercharge p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+  margin-bottom: 10%;
+}
+.section-supercharge .elements-container .produtivitys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+.section-supercharge .elements-container .produtivitys h3 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 10% 0% 5% 0%;
+}
+.section-supercharge .elements-container .produtivitys p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+}
+
+.section-companies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.section-companies img {
+  margin-bottom: 20%;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.last-section h2 {
+  color: hsl(210deg, 10%, 33%);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  margin: 20% 0% 5% 0%;
+}
+.last-section p {
+  color: hsl(201deg, 11%, 66%);
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  max-width: 98%;
+  margin-bottom: 10%;
+}
+.last-section input, .last-section .ios {
+  width: 95%;
+  height: 4rem;
+  border-radius: 30px;
+  border: none;
+  border-bottom: 3px solid hsl(171deg, 66%, 38%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  word-spacing: 3px;
+  background-color: hsl(171deg, 66%, 44%);
+  box-shadow: 0px 3px 3px 3px hsla(171deg, 66%, 44%, 0.247);
+}
+.last-section .mac {
+  background-color: hsl(233deg, 100%, 69%);
+  box-shadow: 0px 3px 3px 3px hsla(233deg, 100%, 69%, 0.247);
+  border-bottom: 3px solid hsl(233deg, 57%, 58%);
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+footer img {
+  width: 15%;
+}
+footer .footer-links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+footer .footer-links a {
+  text-decoration: none;
+  color: hsl(210deg, 10%, 33%);
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+footer .social-medias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+footer .social-medias img {
+  width: 23px;
+}
+
+@media (min-width: 530px) {
+  .container {
+    padding: 30px;
+  }
+  .section-main h1 {
+    font-size: 3rem;
+  }
+  .section-main input, .section-main .ios {
+    width: 85%;
+  }
+  .section-keep-track h2 {
+    color: hsl(210deg, 10%, 33%);
+    font-size: 2.5rem;
+  }
+  .section-keep-track .section-elements .informations .info h3 {
+    font-size: 2rem;
+  }
+  .section-keep-track .section-elements .informations .info p {
+    font-size: 1.3rem;
+  }
+  .last-section input, .last-section .ios {
+    width: 85%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-family: "Bai Jamjuree", sans-serif;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+  }
+  .section-main {
+    margin-top: 10%;
+  }
+  .section-main img {
+    width: 20%;
+  }
+  .section-main h1 {
+    font-size: 2.5rem;
+    margin: 8% 0% 5% 0%;
+  }
+  .section-main p {
+    color: hsl(201deg, 11%, 66%);
+    font-size: 1.3rem;
+    line-height: 30px;
+    max-width: unset;
+    width: 85%;
+    margin-bottom: 5%;
+  }
+  .section-main .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-main .btn input, .section-main .btn .ios {
+    width: 55%;
+    height: 3.5rem;
+    font-size: 1rem;
+    padding: 15px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+  }
+  .section-main .btn .mac {
+    margin-top: 0;
+  }
+  .section-keep-track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  .section-keep-track p {
+    font-size: 1.1rem;
+    line-height: 30px;
+    max-width: 85%;
+  }
+  .section-keep-track .section-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .section-keep-track .section-elements img {
+    width: 70%;
+    margin-bottom: 0;
+    position: relative;
+    left: -100px;
+  }
+  .section-keep-track .section-elements .informations .info h3 {
+    font-size: 1.2rem;
+    text-align: left;
+    margin: 20% 0% 2% 0%;
+  }
+  .section-keep-track .section-elements .informations .info p {
+    font-size: 0.8rem;
+    text-align: left;
+    max-width: 100%;
+    margin-bottom: 0%;
+  }
+  .section-access-clipboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .section-access-clipboard p {
+    font-size: 1.1rem;
+    max-width: 80%;
+    margin-bottom: 8%;
+  }
+  .section-access-clipboard img {
+    width: 80%;
+  }
+  .section-supercharge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 10%;
+  }
+  .section-supercharge p {
+    margin-bottom: 0;
+  }
+  .section-supercharge .elements-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .section-supercharge .elements-container .produtivitys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-supercharge .elements-container .produtivitys img {
+    width: 15%;
+  }
+  .section-supercharge .elements-container .produtivitys h3 {
+    font-size: 1.3rem;
+    margin: 10% 0% 0% 0%;
+  }
+  .section-supercharge .elements-container .produtivitys p {
+    font-size: 0.8rem;
+    max-width: 85%;
+  }
+  .section-companies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: unset;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .section-companies img {
+    margin-bottom: 8%;
+  }
+  .last-section {
+    margin-bottom: 30%;
+  }
+  .last-section p {
+    max-width: 80%;
+    margin-bottom: 10%;
+  }
+  .last-section .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .last-section .btn input, .last-section .btn .ios {
+    width: 55%;
+    height: 3.5rem;
+    font-size: 1rem;
+    padding: 15px;
+    letter-spacing: 1px;
+    margin-right: 15px;
+  }
+  .last-section .btn .mac {
+    margin-top: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    justify-content: space-around;
+  }
+  footer img {
+    width: 13%;
+  }
+  footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+  }
+  footer .footer-links a {
+    text-align: left;
+    margin: 0px 15px 0px 15px;
+  }
+  footer .social-medias img {
+    width: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .section-main {
+    margin-top: 8%;
+  }
+  .section-main img {
+    width: 10%;
+  }
+  .section-main h1 {
+    font-size: 3rem;
+    margin: 4% 0% 1% 0%;
+  }
+  .section-main p {
+    width: 55%;
+    margin-bottom: 4%;
+  }
+  .section-main .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .section-main .btn input, .section-main .btn .ios {
+    width: 55%;
+    height: 3.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  .section-keep-track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .section-keep-track h2 {
+    margin-bottom: 2%;
+    margin-top: 15%;
+  }
+  .section-keep-track p {
+    font-size: 1.15rem;
+    max-width: 55%;
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+  .section-keep-track .section-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .section-keep-track .section-elements img {
+    width: 70%;
+    margin-bottom: 0;
+    position: relative;
+    left: -100px;
+  }
+  .section-keep-track .section-elements .informations .info h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0% 0% 1% 0%;
+  }
+  .section-keep-track .section-elements .informations .info p {
+    font-size: 1rem;
+    text-align: left;
+    max-width: 65%;
+    margin-bottom: 15%;
+  }
+  .section-access-clipboard h2 {
+    margin-bottom: 2%;
+    margin-top: 8%;
+  }
+  .section-access-clipboard p {
+    max-width: 55%;
+  }
+  .section-access-clipboard img {
+    width: 70%;
+    margin-bottom: 2%;
+  }
+  .section-supercharge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 2%;
+  }
+  .section-supercharge h2 {
+    margin: 0% 0% 2% 0%;
+  }
+  .section-supercharge p {
+    margin-bottom: 0;
+  }
+  .section-supercharge .elements-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .section-supercharge .elements-container .produtivitys {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    margin-top: 5%;
+  }
+  .section-supercharge .elements-container .produtivitys img {
+    width: 8%;
+  }
+  .section-supercharge .elements-container .produtivitys .text {
+    width: 10%;
+  }
+  .section-supercharge .elements-container .produtivitys .preview {
+    width: 12%;
+  }
+  .section-supercharge .elements-container .produtivitys h3 {
+    font-size: 1.3rem;
+    margin: 10% 0% 1% 0%;
+  }
+  .section-supercharge .elements-container .produtivitys p {
+    font-size: 1rem;
+    max-width: 75%;
+  }
+  .section-companies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: unset;
+    justify-content: space-evenly;
+    margin-bottom: 0%;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .section-companies img {
+    margin-bottom: 8%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .last-section {
+    margin-bottom: 5%;
+  }
+  .last-section h2 {
+    font-size: 3rem;
+    margin: 5% 0% 2% 0%;
+  }
+  .last-section p {
+    font-size: 1.2rem;
+    width: 55%;
+    margin-bottom: 4%;
+    margin-top: 0;
+  }
+  .last-section .btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .last-section .btn input, .last-section .btn .ios {
+    width: 50%;
+    height: 3.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    row-gap: 0;
+    margin-bottom: 2%;
+    margin-top: 10%;
+    justify-content: space-around;
+  }
+  footer img {
+    width: 5%;
+  }
+  footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 40%;
+    flex-direction: row;
+  }
+  footer .footer-links a {
+    text-align: left;
+    margin: 0px 15px 0px 15px;
+  }
+  footer .social-medias img {
+    width: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
